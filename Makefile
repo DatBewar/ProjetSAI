@@ -45,5 +45,6 @@ clean:
 
 mrproper: clean
 	@rm -rf $(BIN_DIR)/$(BIN)
+	@rm -rf $(BIN_DIR)/*.cfg
 
 rebuild: mrproper all
